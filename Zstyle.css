@@ -1,0 +1,112 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: sans-serif;
+}
+.bancon {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    background-color: #ececec00;
+}
+
+.banner {
+    width: 200px;
+    height: 50px;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/8c9d6265117447.5afb222ee6a38.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    transition: all 0.9s ease;
+}
+
+.banner:hover {
+    width: 300px;
+    height: 70px;
+}
+
+.imgcon {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+}
+/* Sir i'm having a hard time adjusting the image here to match the original size.*/
+.imgcon img {
+    width: 600;
+    height: 300;
+    object-fit: cover;
+}
+
+.para1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 40px;
+}
+
+.para1 p {
+    max-width: 1000px;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+.btncon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btnnav {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 20px;
+  transition: background-color 0.9s ease;
+}
+
+.btnnav:hover {
+  background-color: rgb(32, 147, 229);
+}
+
+.para2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 40px;
+}
+
+.para2 p {
+    max-width: 1000px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.twoimg {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.serimg {
+    width: 300px;
+    text-align: center;
+}
+
+.serimg img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.desc {
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+
+}

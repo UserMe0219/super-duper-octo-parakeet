@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.Dropbtn {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 24px;
+  padding: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.Dropbtn:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(253, 13, 13);
+}
+
+.BurgerNav {
+  position: relative;
+  display: inline-block;
+}
+
+.DropdownCon {
+  display: none;
+  position: absolute;
+  background-color: rgba(229, 229, 233, 0.822);
+  min-width: 160px;
+  border-radius: 7px;
+}
+
+.DropdownCon a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.DropdownCon a:hover {background-color: rgb(177, 188, 179);}
+
+.show {
+  display: block;
+}
+</style>
+</head>
+<body>
+  <div class="BurgerNav">
+    <button onclick="myFunction()" class="Dropbtn">☰</button>
+    <div id="MyDropdown" class="DropdownCon">
+      <a href="index.html">Home</a>
+      <a href="NavV.html">Vertical Menu</a>
+      <a href="NavH.html">Horizontal Menu</a>
+  </div>
+
+<script>
+function myFunction() {
+  document.getElementById("MyDropdown").classList.toggle("show");
+}
+</script>
+</body>
+</html>
